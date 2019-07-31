@@ -1,5 +1,5 @@
 # Reverse Shell in 10-15 Seconds with a Digispark
-A simple payload to get reverse shell in seconds.
+A simple payload to get reverse shell in seconds. Supports Windows 10.
 **WARNING: I claim no responsibility for any illegal actions using this script.**
 
 ## How to Use
@@ -16,3 +16,4 @@ A simple payload to get reverse shell in seconds.
 - Bypasses UAC prompts
 - Remains completely hidden from taskbar, and opens no visible windows.
 - Clears Run box history from registry.
+
