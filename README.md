@@ -12,4 +12,6 @@ A simple payload to get reverse shell in seconds.
 ## What it Does
 - Disables Windows Defender to allow the Reverse Shell connection between the victim and server.
 - Establishes Reverse Shell connection using Powershell script hosted online.
+- Bypasses UAC prompts
+- Remains completely hidden from taskbar, and opens no visible windows.
 - Clears Run box history from registry.
