@@ -1,5 +1,6 @@
 # Reverse Shell in 10-15 Seconds with a Digispark
 A simple payload to get reverse shell in seconds.
+**WARNING: I claim no responsibility for any illegal actions using this script.**
 
 ## How to Use
 1. Set IP Address & Port to your Netcat listener in 'remotescript.PS1'
