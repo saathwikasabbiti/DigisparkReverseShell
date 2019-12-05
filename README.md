@@ -9,6 +9,7 @@ A simple payload to get reverse shell in seconds. Supports Windows 10.
 3. Replace 'REMOTESCRIPTURL' with your Pastebin raw URL on line 37 in 'flash.ino'
 4. Open and upload 'flash.ino' via Arduino IDE to your Digispark.
 5. Listen for connections using Netcat. `nc -v -n -l -p PORT`
+6. Once the Digispark is plugged into a Windows system, it will initiate a reverse shell connection to the IP and port specified.
 
 ## What it Does
 - Disables Windows Defender to allow the Reverse Shell connection between the victim and server.
